@@ -1,10 +1,10 @@
 require('dotenv').config();
 const express = require('express');
-const { User, Todo } = require('./db/models/Index');
+const { User, Todo } = require('./db/models');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const app = express();
-const SALT = process.env.PASSWORD_SALT;
+const SALT = Number(process.env.PASSWORD_SALT);
 const PORT = process.env.PORT;
 const JWT_SECRET = process.env.JWT_SECRET;
 
