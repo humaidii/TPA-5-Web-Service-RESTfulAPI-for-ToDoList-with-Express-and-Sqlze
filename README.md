@@ -114,10 +114,6 @@ The API returns the following error responses :
   }]
 ```
 
-
-
-
-
 ### Get Task By ID
 - **URL**: /todos/{id}
 - **METHOD**: GET
