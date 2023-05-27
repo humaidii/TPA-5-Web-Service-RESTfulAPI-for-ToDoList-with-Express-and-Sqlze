@@ -5,7 +5,9 @@ The Todo List API allows you to manage tasks in a Todo List application. You can
 
 ## Link Railway
 ```bash
-  will upload soon
+
+  tpa-5-humaidi-hambali-production-fb80.up.railway.app
+  
 ```
 
 
